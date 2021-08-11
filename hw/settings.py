@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-ao6(wd%ou5+$8btl%b)^@ok(gk!#e-)llg-2uf8y!mzkf5_tp_
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1','healthy--works.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1','localhost','healthy-works.herokuapp.com']
 
 
 # Application definition
@@ -89,7 +89,6 @@ DATABASES = {
         'USER':'postgres',
         'PASSWORD':'bvssl22',
         'HOST':'localhost',
-        'PORT': '5432'
 
     }
 }
